@@ -1,0 +1,43 @@
+/* Styles for the Downloads page */
+
+#downloads {
+    text-align: center;
+    margin-top: 4em;
+  }
+  
+  #downloads h2 {
+    font-size: 32px;
+    margin-bottom: 2em;
+  }
+
+  #device-name h2 {
+    font-size: 32px;
+    margin-bottom: 2em;
+  }
+  
+  .device-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .device {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .device-image {
+    width: 10%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .device-download .primary-button {
+    margin-top: auto;
+  }
+  
+  /* Add any additional styling for the device images and download buttons as needed */
+  
